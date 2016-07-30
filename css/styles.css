@@ -1,0 +1,233 @@
+html {
+    overflow-y: scroll;
+}
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+    text-decoration: none !important;
+}
+
+a {
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(#004666, #00283a);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.header p {
+    display: inline-block;
+    margin: auto;
+}
+
+
+/* ----- begin nav bar ----- */
+
+.nav-bar {
+    display: block;
+    margin: auto;
+    width: 1024px;
+    padding: 10px;
+}
+
+.nav-bar ul {
+    margin: 5px !important;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 3%;
+    border: none;
+}
+
+
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-dropdown a:hover {
+    background: linear-gradient(#004666, #00283a);
+    color: white;
+}
+
+.nav-dropdown-content {
+    display: none;
+    background: white;
+    border: 2px silver solid;
+    position: absolute;
+    min-width: 260px;
+}
+
+.nav-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-dropbtn {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* begin page area */
+
+.page-area {
+    width: 1024px;
+    min-height: 650px;
+    margin: auto;
+}
+
+.main-content {
+    overflow: auto;
+    height: 100%;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.content-box {
+    border: 2px solid #00283a;
+    border-radius: 7px;
+    margin: 10px;
+    width: 97%;
+    min-height: 270px;
+    float: left;
+}
+
+.content-box h2 {
+    background: linear-gradient(#004666, #00283a);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.content-box p {
+    padding: 10px
+}
+
+.stocking-guide-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stocking-guide-list li {
+    border: 2px solid #00283a;
+    padding: 10px;
+    margin: 5px;
+    width: 46%;
+    min-height: 230px;
+    float: left;
+    padding: 10px;
+}
+
+.guide-table-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+.stocking-guide-table {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+/* ----- Stocking Guide Table Begin ----- */
+
+.stocking-guide-table th {
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    background: #00283a;
+    color: white;
+}
+
+.stocking-guide-table td {
+    text-align: center;
+}
+
+.species-list-list {
+    list-style: none;
+    padding: 0px;
+}
+
+
+/* ----- Stocking Guide Table End ----- */
+
+.species-list-list li {
+    border: 2px solid #00283a;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 30%;
+    min-height: 230px;
+    float: left;
+}
+
+footer {
+    display: inline;
+}
+
+.footer-area {
+    background: linear-gradient(#00283a, #004466);
+    color: white;
+    min-height: 200px;
+}
+
+.footer-area p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo-box {
+    margin: auto;
+    display: block;
+    width: 1024px;
+    text-align: center;
+}
+
+.page-area-btn {
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(#004666, #00283a); 
+}
+
+.nav-button {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+#nav-container {
+    padding: 5px;
+}
+
+#nav-contents {
+    margin-left: 4%
+}
+
+#primary-header {
+    
+}
